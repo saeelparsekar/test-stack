@@ -1,0 +1,52 @@
+{
+  "name": "US Employment rates",
+  "description": "Java sample application using a dataset.",
+  "logo": "_images/stack.png",
+  "has_supporting_content": true,
+  "stack_id": "us-emp-stack",
+  "type": "stack",
+  "categories": [
+    "Backend",
+    "Data API",
+    "ReactJs"
+  ],
+  "platform": "Kubernetes",
+  "cover": "cover.md",
+  "commands": [
+    {
+      "description": "Clone the application repository",
+      "exec": "cd /home/student/projects && git clone https://github.com/Andi-Cirjaliu/edge-java-react-dataset-deploy.git"
+    },
+    {
+      "description": "Copy the dataset",
+      "exec": "cp -R employment_dataset edge-java-react-dataset-deploy/backend"
+    },
+    {
+      "description": "Install and start the application using skaffold tool",
+      "exec": "cd /home/student/projects/edge-java-react-dataset-deploy && skaffold config set default-repo localhost:5000 && skaffold run"
+    }
+  ],
+  "display": [
+    {
+      "name": "Developer Dashboard",
+      "url": "##DNS.host##/codeserver",
+      "enabled": true
+    }
+  ],
+  "buckets": [],
+  "meta": {
+    "Install time": [
+      "10 minutes"
+    ],
+    "Language": [
+      "Java"
+    ],
+    "Tag": [],
+    "categories": [
+      "Backend",
+      "Data API",
+      "ReactJs"
+    ]
+  },
+  "isDocumentSaved": true
+}

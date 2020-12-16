@@ -1,0 +1,17 @@
+{
+  "name": "US Employment rates",
+  "appLayout": "accordion",
+  "appTheme": "g90",
+  "footer": "footer.md",
+  "tutorials": [
+    {
+      "description": "This is a Java Spring application deployed as a microservice.",
+      "duration": "5",
+      "tutorial_name": "java-react-dataset.md",
+      "title": "US Employment rates"
+    }
+  ],
+  "usefulLinks": [],
+  "demos": [],
+  "isTutorialSaved": true
+}
