@@ -12,6 +12,10 @@
   ],
   "platform": "Kubernetes",
   "cover": "cover.md",
+  "deployment_information": {
+    "Operator Project": "NA",
+    "Deployment Namespace": "us-emp-stack"
+   },
   "commands": [
     {
       "description": "Clone the application repository",
