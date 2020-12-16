@@ -37,6 +37,9 @@
     "Install time": [
       "10 minutes"
     ],
+    "Type":[
+         "Operators"
+      ],
     "Language": [
       "Java"
     ],
